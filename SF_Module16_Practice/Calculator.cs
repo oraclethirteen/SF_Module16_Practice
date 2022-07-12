@@ -5,7 +5,7 @@ namespace SF_Module16_Practice
 {
     public class Calculator
     {
-        public int Additional(int a, int b)
+        public int Addition(int a, int b)
         {
             return a + b;
         }
@@ -15,7 +15,7 @@ namespace SF_Module16_Practice
             return a - b;
         }
 
-        public int Miltiplication(int a, int b)
+        public int Multiplication(int a, int b)
         {
             return a * b;
         }

@@ -8,11 +8,11 @@ namespace SF_Module16_Practice.Tests
     public class CalculatorTests
     {
         [Test]
-        public void AdditionalMustReturnCorrectValue()
+        public void AdditionMustReturnCorrectValue()
         {
             var calculator = new Calculator();
 
-            Assert.True(calculator.Additional(5, 10) == 15);
+            Assert.True(calculator.Addition(5, 10) == 15);
         }
         
         [Test]
@@ -24,11 +24,11 @@ namespace SF_Module16_Practice.Tests
         }
 
         [Test]
-        public void MiltiplicationMustReturnCorrectValue()
+        public void MultiplicationMustReturnCorrectValue()
         {
             var calculator = new Calculator();
 
-            Assert.True(calculator.Miltiplication(10, 5) == 50);
+            Assert.True(calculator.Multiplication(10, 5) == 50);
         }
 
         [Test]
